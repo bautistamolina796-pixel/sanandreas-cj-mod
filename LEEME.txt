@@ -1,0 +1,7 @@
+INSTALACION (Forge 1.20.1)
+1. Baja el MDK de Forge 1.20.1 (47.x) desde files.minecraftforge.net y descomprimelo.
+2. En gradle.properties del MDK pon: mod_id=sacj
+3. Borra la carpeta src del MDK y copia la carpeta src de este proyecto.
+4. Ejecuta: gradlew runClient (probar) | gradlew build (genera el .jar en build/libs)
+5. Skin: reemplaza src/main/resources/assets/sacj/textures/entity/cj.png por una skin 64x64 de CJ
+   (la incluida es un placeholder). Lo mismo con las texturas de armas (models/item/*.json).
